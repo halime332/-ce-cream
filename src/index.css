@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .fs-1 {
+    @apply text-[clamp(40px,7vw,80px)];
+  }
+
+  .fs-5 {
+    @apply text-[clamp(16px,1vw,22px)];
+  }
+}
