@@ -8,7 +8,7 @@ const Header = () => {
     <header className='flex justify-between fs-5'>
         <div className='flex gap-[18px] items-center'>
          <img src="/logo.svg" alt="logo" className='size-[45px] lg:size-[55px] 2xl:size-[78px]'/>
-          <h2 className='font-black max-sm:hidden'>
+          <h2 className='font-black max-sm:hidden tracking-widest fs-4'>
             Drop <br/> Cream
           </h2>
         </div>
