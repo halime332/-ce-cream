@@ -1,4 +1,4 @@
-import { render ,screen} from "react-dom";
+import { render, screen } from "@testing-library/react";
 import Selector from "../components/list/selector";
 import userEvent from "@testing-library/user-event";
 
