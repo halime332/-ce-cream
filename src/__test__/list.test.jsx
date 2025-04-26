@@ -12,7 +12,7 @@ jest.mock("../utils/api");
 //card.jsx bileşi içerisinde provider/router gibi bağımlılıklar
 //kullandığımızdan ve bu bağımlılıkların list bileşenine etki etmesini istediğimizden
 //card bileşenini mocklayalım
-jest.mock("../components/list/card")
+jest.mock("../components/list/card");
 
 describe("List bileşeni testleri",()=>{
     //her testin öncesinde önceki testlerden mocklanmış api'a 
