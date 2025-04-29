@@ -6,7 +6,7 @@ import { createOrder } from '../../redux/cartSlice';
 const CartInfo = ({cart,close}) => {
   const subTotal =cart.reduce((acc,item)=> acc + item.price*item.amount,0);
 
-  const shipping=20;
+  const shipping= subTotal > 0 ? 20 : 0 ;
   const total=subTotal +shipping;
   
   const dispatch=useDispatch();
