@@ -5,19 +5,16 @@ import CartButton from '../../components/buttons/cart-button';
 import TrendButton from '../../components/buttons/trend-button';
 
 
-
 const Home = () => {
   return (
     <div>
      <Hero/>
      
-     
-      <CartButton/>
-      <TrendButton/>
-     
-
-     <Home/>
-     <List/>
+           
+     <CartButton/>
+     <TrendButton/>
+    
+      <List/>
     </div>
   );
 };

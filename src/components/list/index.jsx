@@ -23,7 +23,7 @@ const List = () => {
     },[]);
 
   return (
-  <div className='mt-[30px] lg:mt-[120px]'>
+  <div className='mt-[30px]'>
     
       {isLoading ?
       ( <Loader/> )

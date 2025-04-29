@@ -13,7 +13,7 @@ const Header = () => {
           </h2>
         </div>
 
-        <nav className='flex items-center gap-[10px] sm:gap-[20px] lg:gap-[30px] 2xl:gap-[150px]'>
+        <nav className='flex items-center gap-[10px] sm:gap-[20px] lg:gap-[30px] 2xl:gap-[50px]'>
           <a href="/">Anasayfa</a>
           <a href="/">Hakkımızda</a>
           <a href="/">Yakındakiler</a>
