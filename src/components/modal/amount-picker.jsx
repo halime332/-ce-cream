@@ -2,9 +2,9 @@ import React from 'react'
 import { useDispatch } from 'react-redux';
 import {addToCart, deleteFromCart} from "../../redux/cartSlice";
 
-const AmountPiker = ({item}) => {
+const AmountPicker = ({item}) => {
   const dispatch = useDispatch();
-  console.log(item);
+ 
 
   return (
     <div className='flex border rounded-md'>
@@ -16,4 +16,4 @@ const AmountPiker = ({item}) => {
   )
 };
 
-export default AmountPiker;
+export default AmountPicker;

@@ -1,7 +1,8 @@
 import React from 'react'
-import AmountPiker from './amount-piker';
+import AmountPicker from './amount-picker';
 
 const CartItem = ({item}) => {
+  console.log(item);
   return (
     <div className=' flex justify-between items-center border-b py-5 gap-5'>
        <div className='flex items-center gap-1'>
@@ -14,7 +15,7 @@ const CartItem = ({item}) => {
        </div>
 
        <div className='flex items-center gap-3'>
-        <AmountPiker item={item}/>
+        <AmountPicker item={item}/>
         <p className='text-lg md:text-xl text-end min-w-[70px]
         font-semibold text-gray-500'>{item.price*item.amount}₺</p>
        </div>

@@ -15,8 +15,7 @@ const cartSlice = createSlice({
             if (foundItem) {
                 //eğer sepette aynı elemanda varsa miktarını artırır
                 foundItem.amount++;
-            }
-            if (false) {
+
                 //eğer sepette aynı elemandan varsa miktarını artıt
 
             } else {

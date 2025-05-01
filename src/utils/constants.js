@@ -35,7 +35,16 @@ export const mockArray = [
         "price": 34,
         "id": "2fab"
     }
-]
+];
+
+export const mockItem = {
+    name: "Bal Badem",
+    image: "/ice-1.png",
+    price: 25,
+    id: "34d5",
+    type: "cup",
+    amount: 1,
+};
 
 
 
