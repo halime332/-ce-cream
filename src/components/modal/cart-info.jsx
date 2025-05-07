@@ -26,7 +26,7 @@ const CartInfo = ({cart,close}) => {
     <div className='fs-5 py-5 text-lg'>
       <p className='flex justify-between'>
         <span className='text-gray-500 font-semibold'>Ara Toplam</span>
-        <span data-testid="subtotal" className='font-semibold text-gray-700'>{subTotal}</span>
+        <span data-testid="subtotal" className='font-semibold text-gray-700'>{subTotal}₺</span>
       </p>
       <p className='flex justify-between py-2'>
         <span className='text-gray-500 font-semibold'>Kargo</span>
@@ -36,7 +36,7 @@ const CartInfo = ({cart,close}) => {
       </p>
       <p className='flex justify-between '>
         <span className='text-gray-500 font-semibold'>Toplam</span>
-        <span data-testid="total" className='font-semibold text-gray-700 text-2xl'>{total}</span>
+        <span data-testid="total" className='font-semibold text-gray-700 text-2xl'>{total}₺</span>
       </p>
       <button data-testid="order-button" disabled={subTotal===0} onClick={handleClick} className='bg-red-500 mt-4 w-full p-2 rounded-md 
       text-white hover:bg-red-600 transition'>Sipariş Ver</button>

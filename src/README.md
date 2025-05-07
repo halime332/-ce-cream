@@ -11,3 +11,5 @@
 -@reduxjs/toolkit
 -redux-mock-store
 -jest
+
+<img src="screen.gif"/>

@@ -65,7 +65,7 @@ describe("CartInfo Component Tests", () => {
     expect(actions).toEqual([createOrder()]);
 
     // toast bildiriminin gösterilip gösterilmediğini kontrol et
-    expect(toast.success).toHaveBeenCalledWith("Ürünler hazırlanıyor..");
+    expect(toast.success).toHaveBeenCalledWith("Ürünler hazırlanıyor...");
 
     // close fonksiyonunun çağrılıp çağrılmadığını kontrol et
     expect(close).toHaveBeenCalled();
